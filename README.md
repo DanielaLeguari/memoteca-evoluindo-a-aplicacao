@@ -23,3 +23,7 @@ Para executar a aplicação basta abrir o terminal e digitar o comando `ng serve
 
  ![]()
 
+
+# Formulários no Angular
+
+- No Angular existem dois tipos de formulários. Os formulários orientados a template e os formulários orientados a dados, data driven ou também conhecidos como formulários reativos.
