@@ -5,20 +5,20 @@
       "conteudo": "Que bom que você veio ",
       "autoria": "dev",
       "modelo": "modelo1",
-      "favorito":true
+      "favorito": false
     },
     {
       "id": 4,
       "conteudo": "Pensamento de teste editado",
       "autoria": "teste edicao",
       "modelo": "modelo3",
-      "favorito":false
+      "favorito": true
     },
     {
       "conteudo": "pensamento novo",
       "autoria": "dev",
       "modelo": "modelo2",
-      "favorito":false,
+      "favorito": true,
       "id": 5
     },
     {
@@ -26,13 +26,13 @@
       "conteudo": "Que a força esteja com voce!",
       "autoria": "mestre",
       "modelo": "modelo1",
-      "favorito":false
+      "favorito": false
     },
     {
       "conteudo": "Você não é todo mundo!",
       "autoria": "mãe",
       "modelo": "modelo3",
-      "favorito":false,
+      "favorito": false,
       "id": 7
     },
     {
@@ -40,55 +40,55 @@
       "conteudo": "Que a força esteja com você!",
       "autoria": "mestre yoda",
       "modelo": "modelo1",
-      "favorito":false
+      "favorito": false
     },
     {
       "conteudo": "Olá mundo!",
       "autoria": "dev",
       "modelo": "modelo2",
-      "favorito":false,
+      "favorito": false,
       "id": 9
     },
     {
       "conteudo": "Vem sempre aqui?",
       "autoria": "joey",
       "modelo": "modelo3",
-      "favorito":false,
+      "favorito": false,
       "id": 10
     },
     {
       "conteudo": "Carinha que mora logo ali",
       "autoria": "cris",
       "modelo": "modelo1",
-      "favorito":false,
+      "favorito": false,
       "id": 11
     },
     {
       "conteudo": "Amanha é um novo dia, aprendi isso ontem",
       "autoria": "dev",
       "modelo": "modelo2",
-      "favorito":false,
+      "favorito": false,
       "id": 12
     },
     {
       "conteudo": "Hoje um bug não vai estragar meu dia",
       "autoria": "dev",
       "modelo": "modelo3",
-      "favorito":false,
+      "favorito": false,
       "id": 13
     },
     {
       "conteudo": "Aprendendo Angular",
       "autoria": "dev",
       "modelo": "modelo2",
-      "favorito":false,
+      "favorito": false,
       "id": 14
     },
     {
       "conteudo": "Olá, meu nome é Regina Phalange",
       "autoria": "teste 2",
       "modelo": "modelo1",
-      "favorito":false,
+      "favorito": false,
       "id": 15
     }
   ]
