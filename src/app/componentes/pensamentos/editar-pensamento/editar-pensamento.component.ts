@@ -14,7 +14,8 @@ export class EditarPensamentoComponent {
     id: 0,
     conteudo: '',
     autoria: '',
-    modelo: ''
+    modelo: '',
+    favorito: false
   }
 
   formulario!: FormGroup;
@@ -40,7 +41,8 @@ export class EditarPensamentoComponent {
           Validators.required,
           Validators.minLength(3)
         ])],
-        modelo: [pensamento.modelo]
+        modelo: [pensamento.modelo],
+        favorito:[pensamento.favorito]
       })
     });
   }
