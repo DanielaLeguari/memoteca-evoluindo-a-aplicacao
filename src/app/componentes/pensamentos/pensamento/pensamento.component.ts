@@ -9,8 +9,6 @@ import { PensamentoService } from '../pensamento.service';
 })
 export class PensamentoComponent {
 
-  constructor(private service: PensamentoService) { }
-
   @Input() pensamento: Pensamento = {
     id: 0,
     conteudo: 'I love Angular',
@@ -18,6 +16,10 @@ export class PensamentoComponent {
     modelo: 'modelo3',
     favorito: false
   }
+
+  @Input() listaFavoritos: Pensamento[] = [];
+
+  constructor(private service: PensamentoService) { }
 
   larguraPensamento(): string {
     if (this.pensamento.conteudo.length >= 256) {
@@ -36,7 +38,9 @@ export class PensamentoComponent {
   }
 
   atualizarFavorito() {
-    this.service.mudarFavorito(this.pensamento).subscribe();
-    console.log(this.pensamento.favorito);
+    this.service.mudarFavorito(this.pensamento).subscribe(() => {
+      this.listaFavoritos.splice(this.listaFavoritos.indexOf(this.pensamento), 1);
+    });
+
   }
 }

@@ -18,7 +18,7 @@
       "conteudo": "pensamento novo",
       "autoria": "dev",
       "modelo": "modelo2",
-      "favorito": true,
+      "favorito": false,
       "id": 5
     },
     {
@@ -67,7 +67,7 @@
       "conteudo": "Amanha é um novo dia, aprendi isso ontem",
       "autoria": "dev",
       "modelo": "modelo2",
-      "favorito": true,
+      "favorito": false,
       "id": 12
     },
     {
