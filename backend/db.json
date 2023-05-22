@@ -5,7 +5,7 @@
       "conteudo": "Que bom que você veio ",
       "autoria": "dev",
       "modelo": "modelo1",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 4,
@@ -20,13 +20,6 @@
       "modelo": "modelo2",
       "favorito": true,
       "id": 5
-    },
-    {
-      "id": 6,
-      "conteudo": "Que a força esteja com voce!",
-      "autoria": "mestre",
-      "modelo": "modelo1",
-      "favorito": true
     },
     {
       "conteudo": "Você não é todo mundo!",

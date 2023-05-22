@@ -15,13 +15,13 @@ Para executar a aplicação basta abrir o terminal e digitar o comando `ng serve
 
 # Sobre o projeto
 
-- Neste curso a aplicação Memoteca foi evoluída. No formulário foram inseridas validações, houve também a implementação de um campo de pesquisa de pensamentos e páginação de dados, além de favoritar pensamentos.
+- Neste curso a aplicação Memoteca foi evoluída. No formulário foram inseridas validações, houve também a implementação de um campo de pesquisa de pensamentos e paginação de dados, além de favoritar pensamentos.
 
 
  # Apresentação do Memoteca
 
 
- ![]()
+ ![](./src/assets/imagens/demonstracao.gif)
 
 
 # Formulários no Angular
