@@ -46,7 +46,7 @@
       "conteudo": "Olá mundo!",
       "autoria": "dev",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 9
     },
     {
@@ -67,7 +67,7 @@
       "conteudo": "Amanha é um novo dia, aprendi isso ontem",
       "autoria": "dev",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 12
     },
     {
