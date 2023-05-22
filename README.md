@@ -59,3 +59,33 @@ Para executar a aplicação basta abrir o terminal e digitar o comando `ng serve
 7. Validators.composeAsync()
 
 - Compõe vários validadores assíncronos em uma única função que retorna a união dos objetos de erro individuais para o controle fornecido.
+
+
+8. HttpParams()
+
+- A classe HttpParams representa um corpo de requisição/resposta HTTP com parâmetros serializados.
+- Esta classe é imutável, ou seja, todas as operações de mutação retornam uma nova instância. 
+- Outros métodos do HttpParams:
+1. `HttpParams.has()`
+- Informa se o corpo inclui um ou mais valores para um determinado parâmetro.
+
+2. `HttpParams.get()`
+- Recupera o primeiro valor de um parâmetro.
+
+3. `HttpParams.getAll()`
+- Recupera todos os valores de um parâmetro.
+
+4. `HttpParams.keys()`
+- Recupera todos os parâmetros para este corpo da requisição.
+
+5. `HttpParams.append()`
+- Acrescenta um novo valor aos valores existentes para um parâmetro.
+
+6. `HttpParams.appendAll()`
+- Constrói um novo corpo com valores anexados para o nome do parâmetro fornecido.
+
+7. `HttpParams.delete()`
+- Remove um determinado valor ou todos os valores de um parâmetro.
+
+8. `HttpParams.toString()`
+- Serializa o corpo da requisição em uma string codificada, em que os pares de chave-valor (separados por =) são separados por & s.
