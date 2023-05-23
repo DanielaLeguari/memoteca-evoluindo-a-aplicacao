@@ -11,9 +11,6 @@ const routes: Routes = [
     path: '',
     redirectTo: 'listarPensamento',
     pathMatch: 'full',
-    data: {
-      reuseComponent: true
-    }
   },
   {
     path: 'criarPensamento',
@@ -21,7 +18,10 @@ const routes: Routes = [
   },
   {
     path: 'listarPensamento',
-    component: ListarPensamentoComponent
+    component: ListarPensamentoComponent,
+    data: {
+      reuseComponent: true
+    }
   },
   {
     path: 'pensamentos/excluirPensamento/:id',
